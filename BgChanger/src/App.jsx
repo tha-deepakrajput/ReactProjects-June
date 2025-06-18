@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 const App = function() {
+  const [color, setColor] = useState("Black");
   return (
     <>
-    <h1>App</h1>
+    <div className="w-full h-screen duration-200" style={{backgroundColor: "black"}}>
+      
+    </div>
     </>
   )
 }
